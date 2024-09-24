@@ -1,16 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Apr 13 13:15:13 2022
 
-@author: gabri
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Feb 27 16:39:39 2022
-
-@authors: Gabriele, Panagiotis, Naika
-"""
 
 import numpy as np
 from scipy import stats
@@ -21,7 +9,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from numpy import cov
 
-doc = xlrd.open_workbook('..\Data\wine.xls').sheet_by_index(0)
+doc = xlrd.open_workbook('wine.xls').sheet_by_index(0)
 
 # Import original dataset
 

@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Feb 27 16:39:39 2022
-
-@authors: Gabriele, Panagiotis, Naika
-"""
-
 import numpy as np
 import xlrd
 from scipy import stats
@@ -16,7 +9,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from numpy import cov
 
 plt.rcParams['figure.dpi'] = 600
-doc = xlrd.open_workbook(r'C:\Users\bonas\OneDrive\Υπολογιστής\DTU\4th SEMESTER\Introduction to machine learning and data mining\02450Toolbox_Python\02450Toolbox_Python\Tools\wine.xls').sheet_by_index(0)
+doc = xlrd.open_workbook('wine.xls').sheet_by_index(0)
 
 # Import original dataset
 attributeNames = doc.row_values(rowx=0, start_colx=1, end_colx=14)

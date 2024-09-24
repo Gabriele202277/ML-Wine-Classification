@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Feb 27 16:39:39 2022
 
-@authors: Gabriele, Panagiotis, Naika
-"""
 
 import numpy as np
 import xlrd
@@ -16,7 +11,7 @@ import torch
 from scipy import stats
 
 plt.rcParams['figure.dpi'] = 600
-doc = xlrd.open_workbook('..\Data\wine.xls').sheet_by_index(0)
+doc = xlrd.open_workbook('wine.xls').sheet_by_index(0)
 
 # Import original dataset
 attributeNames = doc.row_values(rowx=0, start_colx=1, end_colx=14)

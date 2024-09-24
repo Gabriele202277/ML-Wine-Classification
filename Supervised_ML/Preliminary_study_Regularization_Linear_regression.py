@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Feb 27 16:39:39 2022
-
-@authors: Gabriele, Panagiotis, Naika
-"""
 
 import numpy as np
 import xlrd
